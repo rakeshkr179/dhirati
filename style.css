@@ -1,0 +1,132 @@
+.nevbar{
+	background: #0001;
+	margin-top: -8px;
+	margin-left: -8px;
+	position: fixed;
+	height: 25%;
+	width: 100%;
+}
+#logo
+{
+height: 80%;
+width: 400px;
+margin-left: 20px;
+margin-top: 20px;
+position: absolute;
+animation-name: logo;
+animation-duration: 2s;
+}
+#logopart{
+  height: 170px;
+}
+
+@keyframes logo {
+from
+{
+  left: -600px;
+}
+to
+{
+  left:0px;
+}
+}
+
+.menu{
+	position: absolute;
+	font-family: sans-serif;
+	font-size: 25px;
+	list-style: none;
+	text-align: center;
+	float: left;
+	margin-top: 110px;
+	margin-right: 30px;
+}
+.menubar{
+	background: transparent;
+	height: 166px;
+	width: 700px;
+	position: absolute;
+	margin-left: 50%;
+}
+
+.home{
+  width: 130px;
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  padding-left: 20px;
+  position: relative;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.link:hover{
+	background: #0005;
+	color: white;
+	border-radius: 20px 20px 20px 20px ;
+}
+.sidebar{
+	background: #0005;
+	height: 100%;
+	width: 250px;
+	position: fixed;
+	margin-top: 159px;
+	margin-left: -8px;
+}
+.sidemenu{
+	display: block;
+	text-align: center;
+	margin-right: 50px;
+	margin-top: 50px;
+	padding-top: 20px;
+	font-size: 30px;
+}
+.sidelink{
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+.sidelink:hover{
+	background: #0005;
+	color: white;
+	display: block;
+	height: 60px;
+	width: 250px;
+	margin-left: -40px;
+	position: relative;
+	padding-top: 15px;
+
+}	
+.sidemenu:hover #submenu1{
+	display: block;
+}
+#submenu1{
+	margin-top: -130px;
+	margin-left: 120px;
+	display: none;
+	list-style: none;
+	width: 500px;
+	line-height: 35px;
+	position: absolute;
+}
+#submenu1 li{
+	font-size: 45px;
+	line-height: 35px;
+	padding-top: 70px;
+	margin-top: 0px;
+}
+#submenu1 li a{
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+#submenu1 li a:hover{
+	background-color: #0008;
+	height: 70px;
+	padding-top: 30px;
+	margin-left: 50px;
+	color: white;
+}
